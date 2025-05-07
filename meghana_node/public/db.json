@@ -1,0 +1,64 @@
+{
+    "songs":[
+        {
+            "song_id": 1,
+            "song_title": "Shape of You",
+            "artist_name": "Ed Sheeran",
+            "song_image":"https://imgs.search.brave.com/Mqnyo5uSexOT62v_FqvPIQT4JxjTkEdCwEY_QohfGGI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zb3Vy/Y2UuYm9vbXBsYXlt/dXNpYy5jb20vZ3Jv/dXAxMC9NMDAvMDcv/MDYvMGRjMzBlNWJj/NTU4NDRkNWI1NDcw/Yzc0OTA3YTIwNGFf/NDY0XzQ2NC5qcGc",
+            "album_name": "Divide",
+            "genre": "Pop",
+            "release_year": 2017,
+            "song_duration": "3:53"
+        },
+        {
+            "song_id": 2,
+            "song_title": "Levitating",
+            "artist_name": "Dua Lipa",
+            "song_image":"https://imgs.search.brave.com/TvEGmv8PU8vQUf0HIShB0yOd-Bg5WyS1u738Uriu6oI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzEtRzJaaWJoOUwu/anBn",
+            "album_name": "Future Nostalgia",
+            "genre": "Disco-pop",
+            "release_year": 2020,
+            "song_duration": "3:23"
+        },
+        {
+            "song_id": 3,
+            "song_title": "One Love",
+            "artist_name": "Blue",
+            "song_image":"https://imgs.search.brave.com/-R0ky6ayd-HeDqgoZpxhf1e9d8Dl_DNGVFAhwlNNn4c/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMxLmh1bmdhbWEu/Y29tL3RyOm4tYV8x/MV9tL2MvMS9jMWYv/YzA2LzM4MjUxNi8z/ODI1MTZfODAweDgw/MC5qcGc_dmVyc2lv/bj01XzQ3",
+            "album_name": "One Love",
+            "genre": "Pop",
+            "release_year": 2002,
+            "song_duration": "3:25"
+        },
+        {
+            "song_id": 4,
+            "song_title": "No Lie",
+            "artist_name": "Sean Paul ft. Dua Lipa",
+            "song_image":"https://imgs.search.brave.com/ozttwCFcmR9T4QNo18TD1cI_SDyKrlKQ0ituwpfGtBA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Nl/YW5wYXVsL2ltYWdl/cy9jL2NiL05vX0xJ/ZS53ZWJwL3Jldmlz/aW9uL2xhdGVzdC9z/Y2FsZS10by13aWR0/aC1kb3duLzI4MD9j/Yj0yMDIyMDkyOTIw/MDgwMA.jpeg",
+            "album_name": "Mad Love: The Prequel",
+            "genre": "Dancehall",
+            "release_year": 2016,
+            "song_duration": "3:41"
+        },
+        {
+            "song_id": 5,
+            "song_title": "Halo",
+            "artist_name": "Beyoncé",
+            "song_image":"https://imgs.search.brave.com/7HwbimR-Z_nmPzBSHXQQLFbU4lupHQb5YVdbYbP7mjw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk16VmhNek0y/T0dJdE1EY3haaTAw/WWpWbExXSTNNV0l0/Tnpoa01tWmhaalJs/T1Rrd1hrRXlYa0Zx/Y0djQC5qcGc",
+            "album_name": "I Am... Sasha Fierce",
+            "genre": "Pop / R&B",
+            "release_year": 2008,
+            "song_duration": "4:21"
+        },
+        {
+            "song_id": 6,
+            "song_title": "Heat Waves",
+            "artist_name": "Glass Animals",
+            "song_image":"https://imgs.search.brave.com/UvXfV-L-8wcDo8SyJOg-vmfpUdB33yYFpG-YSyE46Z8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bW92aW45MjUuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIy/LzA3L01fR2xhc3NB/bmltYWxzVkVWT0Zv/b3Rub3Rlcy5qcGc",
+            "album_name": "Dreamland",
+            "genre": "Indie Pop / Psychedelic Pop",
+            "release_year": 2020,
+            "song_duration": "3:58"
+        }        
+    ]
+}

@@ -1,0 +1,298 @@
+ .container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 0.1fr 0.3fr 0.3fr 0.4fr 0.3fr 0.1fr;
+   grid-template-areas:
+     "header header header header header header"
+     "about about about about about about"
+     "education education education education education education"
+     "projects projects projects projects projects projects"
+     "experience experience experience blogs blogs blogs"
+     "footer footer footer footer footer footer"
+ }
+
+ header {
+   grid-area: header;
+ }
+
+ #nav {
+  background-color: rgb(210, 236, 248);
+  text-align: left;
+  padding: 1.5em 0em;
+}
+
+ #menu {
+   display: none;
+ }
+
+
+
+ #about {
+   background-color: #e3d7c3f4;
+   padding: 2em;
+   /* height: 250px; */
+   grid-area: about;
+   display: grid;
+   grid-template-columns: 0.3fr 0.7fr;
+ }
+
+ #education {
+   background-color: #cfbaba;
+   /* height: 250px; */
+   display:grid;
+   grid-gap: 1em;
+   grid-area: education;
+   grid-template-columns: 0.3fr 0.7fr
+   
+ }
+
+ #projects {
+   background-color: #e0e1f3;
+   /* height: 370px; */
+   padding: 2em;
+   grid-area: projects;
+ }
+
+ #experience {
+   background-color: #F1EFF0;
+   /* height: 250px; */
+   padding: 1.5em;
+   grid-area: experience;
+ }
+
+ #blogs {
+   background-color: #F1EFF0;
+   padding: 1.5em;
+   grid-area: blogs;
+ }
+
+ span {
+   margin: 5px 70px 5px;
+ }
+
+ a {
+   text-decoration: none;
+   display: inline-block;
+   padding: 5px 45px;
+   background-color: #a6b5de;
+   color: #424242;
+   font-size: larger;
+
+ }
+
+ h1 {
+   margin-bottom: 5px;
+   text-align: left;
+ }
+
+ p {
+   margin: 10px auto 10px auto;
+   text-align: justify;
+ }
+
+ .highlight {
+   background-color: #c2a1a8;
+   display: inline-block;
+   text-align: right;
+ }
+
+ .its-abt,
+ .its-edu,
+ .its-pro {
+   padding: 20px 45px 0;
+ }
+
+ .its-exp {
+   padding: 20px 45px 0;
+
+ }
+
+ /* .profile_pic p1 {
+   margin: 5px 0;
+   text-align: center;
+   display: block;
+ } */
+
+ /* .profile_pic {
+   float: left;
+   width: 200px;
+   text-align: center;
+   margin-right: 100px;
+ } */
+  
+ .profile_pic{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 1em;
+ }
+
+
+ .profile_pic,.edu_pic img {
+   width: 200px;
+   height: 150px;
+   margin-top: 20px;
+   object-fit: cover;
+ }
+
+ .projects-head {
+   text-align: center;
+   padding: 10px;
+   margin-bottom: 0;
+ }
+
+ .projects-container {
+   display: grid;
+   grid-template-columns: 0.5fr 0.5fr;
+   grid-template-rows: 1fr;
+   grid-template-areas: "project1 project2";
+   column-gap: 2em;
+ }
+
+ .project1 {
+   grid-area: project1;
+ }
+
+ .project2 {
+   grid-area: project2;
+ }
+
+ /* .project1,
+ .project2 {
+   float: left;
+   width: 40%;
+   margin-bottom: 0;
+   margin-top: 0px;
+   padding: 20px;
+ } */
+
+ /* .project1 {
+   margin-right: 5%;
+ }
+
+ .project2 {
+   margin-left: 5%;
+ } */
+
+ .p1_pic,
+ .p2_pic {
+   float: left;
+   width: 100px;
+   margin-right: 50px;
+ }
+
+ .p1_pic img,
+ .p2_pic img {
+   width: 110px;
+   height: 140px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   object-fit: cover;
+ }
+
+ .about-head {
+   margin-left: 40px;
+   margin-top: 15px;
+ }
+
+ .education-head {
+   margin-left: 40px;
+   margin-top: 15px;
+ }
+
+ .experience-head {
+   height: 250px;
+   background-color: #F1EFF0;
+   display: block;
+ }
+
+ /* .experience {
+   float: left;
+   text-align: center;
+   width: 45%;
+   margin: 0 2.5%;
+   height: 250px;
+ }
+
+ .blogs {
+   float: left;
+   text-align: center;
+   width: 45%;
+   margin: 0 2.5%;
+   height: 250px;
+ } */
+
+ footer {
+   font-size: 20px;
+   background-color: rgb(120, 118, 118);
+   height: 80px;
+   color: #DCDCDC;
+   grid-area: footer;
+   align-items: center;
+ }
+
+
+ 
+
+  .icon {
+   padding: 10px;
+   margin: 0 130px;
+ } 
+
+ @media screen and (max-width:500px) {
+   #menu {
+     display: block;
+   }
+
+   #nav {
+     display: none;
+   }
+
+   #nav span a {
+     display: block;
+     padding: 0.5em;
+   }
+
+   .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.3fr 0.3fr 0.4fr 0.2fr 0.2fr 0.1fr;
+    grid-template-areas:
+      "header"
+      "about"
+      "education"
+      "projects"
+      "experience"
+      "blogs"
+      "footer"
+  }
+
+  #about ,#education {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.5fr;
+  }
+
+  .profile_pic,.edu_pic{
+    margin: auto;
+   }
+
+   footer {
+    grid-area: footer;
+    align-items: center;
+    height: 160px;
+
+    
+  }
+
+   .projects-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-areas: "project1 project1"
+    "project2 project2";
+    column-gap: 2em;
+  }
+
+ }
