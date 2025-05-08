@@ -20,7 +20,7 @@ import MusicList from "./components/MusicList.vue";
    },
    methods:{
     async displayMusicList(){
-      const response = await fetch("http://localhost:3167/api");
+      const response = await fetch("https://node-meg.onrender.com/api");
       const musicData = await response.json();
       return musicData[0].songs;
     }
